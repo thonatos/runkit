@@ -1,0 +1,20 @@
+{
+  "name": "runkit",
+  "version": "1.0.0",
+  "bin": {
+    "runkit": "bin/runkit.js"
+  },
+  "scripts": {
+    "runkit": "node bin/runkit.js",
+    "test": "mocha test/test.detective.js"
+  },
+  "dependencies": {
+    "common-bin": "^2.8.1",
+    "debug": "^4.1.1",
+    "node-source-walk": "^4.2.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
