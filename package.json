@@ -11,7 +11,9 @@
   "dependencies": {
     "common-bin": "^2.8.1",
     "debug": "^4.1.1",
-    "node-source-walk": "^4.2.0"
+    "node-source-walk": "^4.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
   },
   "license": "MIT",
   "devDependencies": {

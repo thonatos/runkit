@@ -8,6 +8,10 @@ const { Readable } = require('stream');
 const detetive = require('./lib/detective');
 const Command = require('common-bin');
 
+require('ts-node').register({
+  /* options */
+});
+
 class MainCommand extends Command {
   constructor(rawArgv) {
     super(rawArgv);
